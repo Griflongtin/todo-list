@@ -1,0 +1,15 @@
+.card {
+  width: 20rem;
+}
+
+.results {
+  display: none;
+}
+
+.clickable:hover {
+  text-decoration: underline;
+}
+
+.clickable {
+  color: blue;
+}

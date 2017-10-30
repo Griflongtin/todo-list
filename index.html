@@ -6,9 +6,63 @@
     <link rel="stylesheet" href="css/styles.css" type="text/css">
     <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
-    <title></title>
+    <title>Todo List</title>
   </head>
   <body>
+    <div class="container">
+      <div class="tophalf row">
+        <div class="col-md-4">
+          <form>
+          <div class="card">
+            <div class="card-header"><h2>Todo task</h2></div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <label>Task Name</label>
+                <input id="name" type="text" class="form-control" placeholder="Task Name">
+              </li>
+              <!-- <li class="list-group-item">
+                <label>Category</label>
+                <input type="text" class="form-control" placeholder="Task Name">
+              </li> -->
+              <li class="list-group-item">
+                <label>Notes</label>
+                <input id="notes" type="text" class="form-control" placeholder="Task Name">
+              </li>
+              <li class="list-group-item">
+                <label>Due Date</label>
+                <input id="due" type="text" class="form-control" placeholder="Task Name">
+              </li>
+              <li class="list-group-item"><button type="submit" class="btn btn-outline-dark btn-lg btn-block">Submit</button></li>
+            </ul>
+          </div>
+        </form>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top" src="..." alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">Current Todo List</h4>
+              <p class="card-text">Click on item below for more details:</p>
+            </div>
+            <ul class="list-group list-group-flush" id="output-task-name">
 
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4 results">
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title"><span id="selectName"></span></h4>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item" id="selectCategory"></li>
+                <li class="list-group-item" id="selectNotes"></li>
+                <li class="list-group-item" id="selectDue"></li>
+              </ul>
+            </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

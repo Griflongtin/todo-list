@@ -19,7 +19,7 @@ _Make a to do list webpage where people can add tasks to create a list of things
 |----------|:-------------:|:-----:|
 | User can add a task |  Laundry | Laundry |
 | User can input name of task | Run | Run |
-| User can set a completion date | Task due on Monday | Task due on Monday |
+| User can set a due date | Task due on Monday | Task due on Monday |
 | User can mark a task as complete | 'Done' checkbox is clicked | Task item is removed from display list |
 
 

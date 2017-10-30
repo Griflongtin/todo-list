@@ -20,10 +20,15 @@
                 <label>Task Name</label>
                 <input id="name" type="text" class="form-control" placeholder="Task Name">
               </li>
-              <!-- <li class="list-group-item">
-                <label>Category</label>
-                <input type="text" class="form-control" placeholder="Task Name">
-              </li> -->
+              <div class="form-group list-group-item">
+                 <label>Task Category</label>
+                 <select class="form-control" id="category">
+                   <option disabled selected>Select Category</option>
+                   <option value="personal">Personal</option>
+                   <option value="school">School</option>
+                   <option value="home">Home</option>
+                 </select>
+               </div>
               <li class="list-group-item">
                 <label>Notes</label>
                 <input id="notes" type="text" class="form-control" placeholder="Task Name">

@@ -13,3 +13,11 @@
 .clickable {
   color: blue;
 }
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
